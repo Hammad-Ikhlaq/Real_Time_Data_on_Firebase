@@ -1,5 +1,8 @@
 from firebase import firebase
 import random
+
+#it has been made for our video
+
 firebase = firebase.FirebaseApplication('https://smart-connected-cars-92ce7.firebaseio.com/', None)
 
 speed=0

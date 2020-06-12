@@ -1,5 +1,7 @@
 from firebase import firebase
 
+#It will keep on updating real time database
+
 firebase = firebase.FirebaseApplication('https://smart-connected-cars-92ce7.firebaseio.com/', None)
 
 i=10

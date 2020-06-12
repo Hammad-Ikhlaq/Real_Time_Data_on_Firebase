@@ -1,5 +1,7 @@
 from firebase import firebase
 
+# it is uploading dummy car data
+
 firebase = firebase.FirebaseApplication('https://smart-connected-cars-92ce7.firebaseio.com/', None)
 for line in open('input', 'r'):
   values = [str(s) for s in line.split("', '")]
